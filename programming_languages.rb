@@ -8,5 +8,6 @@ def reformat_languages(languages)
       else
         new_hash[program_name][:style] << programming_style
       end
+    end
   end
 end
