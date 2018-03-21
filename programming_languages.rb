@@ -38,8 +38,8 @@ def reformat_languages(languages)
   languages.each do |programming_style, language_info|
     language_info.each do |program_name, program_type|
       new_hash[program_name] = {:type => program_type[:type], :style => []}
-      binding.pry
       new_hash[program_name][:style].push(programming_style)
+      binding.pry
     end
   end
 
